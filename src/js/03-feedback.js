@@ -22,13 +22,9 @@ function onInput() {
 
 function onSubmit(e) {
   e.preventDefault();
-  printForm();
+  console.log(savedForm);
   formEl.reset();
   localStorage.removeItem(STORAGE_FORM_KEY);
-}
-
-function printForm() {
-  Object.keys(savedForm).map(key => console.log(`${key}: ${savedForm[key]}`));
 }
 
 function save(key, value) {
