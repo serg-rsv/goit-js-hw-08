@@ -13,4 +13,4 @@
 
 - Проект собран с помощью
   [parcel-project-template](https://github.com/goitacademy/parcel-project-template).
-  - Используется пакет [lodash.throttle](https://www.npmjs.com/package/lodash.throttle)
+- Используется пакет [lodash.throttle](https://www.npmjs.com/package/lodash.throttle)
